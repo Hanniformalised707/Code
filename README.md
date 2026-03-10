@@ -2,17 +2,17 @@
 
 ### 🔥 Please star CARE-Edit ⭐ and share it. Thanks! 🔥
 
-[Yucheng Wang*](https://wangandyyucheng.github.io/), [Zedong Wang*](https://jacky1128.github.io/), [Yuetong Wu](https://scholar.google.com/citations?user=Fjqr0fEAAAAJ&hl=zh-CN), [Yue Ma](https://mayuelala.github.io/), [Dan Xu†](https://www.danxurgb.net/)
+>[Yucheng Wang*](https://wangandyyucheng.github.io/), [Zedong Wang*](https://jacky1128.github.io/), [Yuetong Wu](https://scholar.google.com/citations?user=Fjqr0fEAAAAJ&hl=zh-CN), [Yue Ma](https://mayuelala.github.io/), [Dan Xu†](https://www.danxurgb.net/)
+>The Hong Kong University of Science and Technology (HKUST)
 
-**The Hong Kong University of Science and Technology (HKUST)**
-
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](#) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://wangandyyucheng.github.io/CARE-Edit/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](#) [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-green)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.08589-b31b1b.svg)](https://arxiv.org/abs/2603.08589) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://wangandyyucheng.github.io/CARE-Edit/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](#) [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-green)](#)
 
 ---
 
 ## 🚩 Updates
 
-- ☑ Our **CARE-Edit** is accepted by **CVPR 2026**. The paper and codes will be released soon.
+- ☑ Our paper is now available on [arXiv](https://arxiv.org/abs/2603.08589).
+- ☑ **CARE-Edit** is accepted by **CVPR 2026**. Codes will be released soon.
 
 ## 💡 Motivation
 
